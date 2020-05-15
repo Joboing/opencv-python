@@ -1,7 +1,7 @@
 # opencv-python
 some script for opencv-python to handle image
 ## environment
-python==3.5.2
+python==3.5.2  
 numpy==1.17.4  
 opencv-python==3.4.1.15  
 matplotlib==3.0.3
