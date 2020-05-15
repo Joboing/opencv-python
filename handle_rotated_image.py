@@ -20,8 +20,8 @@ def rotate(img, save_path):
     #opencv采用的方式：[[a,-b,(1-a)*centerx-b*centery],[-b,a,b*centery-(1-a)*centerx]]
     matRotation = cv2.getRotationMatrix2D((width / 2, height / 2), degree,1)
     print(matRotation)
-    # matRotation[0, 2] += (widthNew - width) / 2  # 旋转是以原图像中心为中心进行旋转的，而经仿射变化后的图像宽和高是以坐标原点开始的，若不将图片进行适当平移操作，逆时针旋转得到的图会在右上方
-    # matRotation[1, 2] += (heightNew - height) / 2  # 重点在这步
+    matRotation[0, 2] += (widthNew - width) / 2  # 旋转是以原图像中心为中心进行旋转的，而经仿射变化后的图像宽和高是以坐标原点开始的，若不将图片进行适当平移操作，逆时针旋转得到的图会在右上方
+    matRotation[1, 2] += (heightNew - height) / 2  # 重点在这步
     # 图片上的一个点(matRotation[0][0] * x + matRotation[0][1] * y + matRotation[0][2], matRotation[1][0] * x + matRotation[1][1] * y + matRotation[1][2] )
     imgRotation = cv2.warpAffine(img, matRotation, (widthNew, heightNew), borderValue=(255, 255, 255))  # 进行仿射变化
     
