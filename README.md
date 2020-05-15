@@ -5,4 +5,4 @@ numpy==1.17.4
 opencv-python==3.4.1.15
 ## script Introduction
 handle_rotated_image.py  #将图片按任意角度旋转并没有黑边  
-handle_iamge_sift_match.py #sift图像匹配
+handle_image_sift_match.py #sift图像匹配
