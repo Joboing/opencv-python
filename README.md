@@ -1,5 +1,5 @@
 # opencv-python
-some script for opencv-python to handle image
+image scripts and related program for opencv-python
 ## environment
 python==3.5.2  
 numpy==1.17.4  
