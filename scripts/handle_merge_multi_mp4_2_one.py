@@ -10,7 +10,7 @@ notes
 L = []
 
 # 访问 video 文件夹 (假设视频都放在这里面)
-video_dir = "D:/data/image_retrieval/data/mater_videos/520_test/merge_video"
+video_dir = "./merge_video"
 for root, dirs, files in os.walk(video_dir):
     # 按文件名排序
     files = natsorted(files)
@@ -29,5 +29,5 @@ for root, dirs, files in os.walk(video_dir):
 final_clip = concatenate_videoclips(L)
 
 # 生成目标视频文件
-final_clip.to_videofile("D:/data/image_retrieval/data/mater_videos/520_test/merge_video/target.mp4", fps=25,
+final_clip.to_videofile("./t/merge_video/target.mp4", fps=25,
                         remove_temp=False)
