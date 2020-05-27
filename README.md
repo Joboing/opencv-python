@@ -14,4 +14,5 @@ handle_compute_video_fps.py #计算视频的fps
 ## 算法刷题
 bubble_sort_day1.py #冒泡排序  
 select_sort_day2.py #选择排序  
-hailstone_day4.py #希尔顿序列
+hailstone_day4.py #希尔顿序列  
+insert_day5.py #数组指定位置插入一个元素,不能调用API
