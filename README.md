@@ -17,3 +17,5 @@ select_sort_day2.py #选择排序
 relation_algorithm_program_day3.py #程序和算法的关系  
 hailstone_day4.py #希尔顿序列  
 insert_day5.py #数组指定位置插入一个元素,不能调用API  
+day6_list_index_sum.py #LeetCode练习题：求数组的中心索引
+
