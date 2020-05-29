@@ -2,7 +2,9 @@
 import logging
 from logging import handlers
 
-
+'''
+参考链接：https://www.cnblogs.com/nancyzhu/p/8551506.html
+'''
 class Logger(object):
     level_relations = {
         'debug': logging.DEBUG,
