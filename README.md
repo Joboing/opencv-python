@@ -11,6 +11,7 @@ handle_image_sift_match.py #sift图像匹配
 handle_video_frame.py #视频抽帧  
 handle_merge_multi_mp4_2_one.py #将多个视频合成为一个，视频的尺寸必须一样。  
 handle_compute_video_fps.py #计算视频的fps  
+handle_logging_learn.py #python+logging模块的使用，即打印的屏幕也输出到文件
 ## 算法刷题
 bubble_sort_day1.py #冒泡排序  
 select_sort_day2.py #选择排序  
